@@ -49,3 +49,7 @@ nav a {
 h1 {
     color: black
 }
+
+body header nav {
+    color: lightblue;
+}
