@@ -20,6 +20,7 @@ main{
 }
 
 aside {
+    max-width: 200px;
     width: 20rem;
     text-align: center;
     margin: 1rem;
