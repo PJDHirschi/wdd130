@@ -21,6 +21,7 @@ main{
 }
 
 aside {
+    position:relative;
     width: 20rem;
     text-align: center;
     margin: 1rem;
@@ -92,7 +93,7 @@ body header nav {
 aside h2 {
     position:absolute;
     top: 60x;
-    left: 398px;
+    left: 80px;
 }
 /* Class Selectors */
 
