@@ -56,6 +56,7 @@ article {
     display: block;
     width: 100%;
     height: auto;
+    padding-left: 0px;
 }
 
 h1 {
@@ -74,15 +75,21 @@ article {
     font-style: italic;
     font-family: "Times New Roman";
     margin-top: 8px;
+    padding-right: 100px;
+    border-right: 0px;
     top: -200px;
+    float: left;
     padding: 8px;
-    opacity: 0.7;
+    opacity: 1;
     color: var(--primary-color);
-    background-color: var(--accent1-color);
+    background-color: rgba(3, 43, 69, 0.7);
 }
 
 .hero article img {
+    position: relative;
+    top: 10px;
     float: right;
     width: 125px;
-    opacity:1.0;
+    margin-left: 20px;
+    box-shadow: black 5px 5px 5px;
 }
