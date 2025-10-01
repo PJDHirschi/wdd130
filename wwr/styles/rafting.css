@@ -73,9 +73,16 @@ article {
     position: absolute;
     font-style: italic;
     font-family: "Times New Roman";
+    margin-top: 8px;
+    top: -200px;
+    padding: 8px;
+    opacity: 0.7;
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
 }
 
 .hero article img {
     float: right;
     width: 125px;
+    opacity:1.0;
 }
