@@ -120,7 +120,7 @@ nav ul li {
     border-top: 2px solid black;
     border-left: 2px solid black;
     border-right: 2px solid black;
-    padding: 8px black;
+    padding: 8px;
     background-color: var(--secondary-color);
 }
 header img{
@@ -148,7 +148,6 @@ section p{
     order: 1;
 }
 section img{
-    float: center;
 
     align-items: center;
 }
