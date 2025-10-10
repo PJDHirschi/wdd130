@@ -103,7 +103,7 @@ article {
 header {
     display: grid;
     grid-template-columns: 1fr 3fr;
-
+    align-items: center;
 }
 
 nav ul {
@@ -111,7 +111,8 @@ nav ul {
     justify-content: space-evenly;
     justify-content: end;
     justify-content: space-between;
-    align-items: center;
+    align-self: center;
+    
 }
 
 nav ul li {
@@ -121,4 +122,71 @@ nav ul li {
     border-right: 2px solid black;
     padding: 8px black;
     background-color: var(--secondary-color);
+}
+header img{
+    border: 5px solid var(--accent1-color);
+}
+
+
+.history-section{ 
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: start;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+section h2{
+    justify-content: center;
+    order: 1;
+    align-items: start;
+    margin-bottom: 10px;
+
+}
+section p{
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+    order: 1;
+}
+section img{
+    float: center;
+
+    align-items: center;
+}
+section{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;               
+    align-items: flex-start;      
+}
+.adventure {
+    text-align: center;
+    margin: 20px 0;
+}
+.adventure h2{
+    margin-bottom: 20px;
+}
+
+.adventure{
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;    
+    grid-template-rows: 1fr 1fr;
+}
+.adventure figure{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+.adventure figcaption{
+    font-style: italic;
+    padding: 8px;
+    margin-top: 6px;
+}
+.adventure img{
+    border: 2px solid black;
+    margin: 8px;
+    box-shadow: black 5px 5px 5px;
+
 }
