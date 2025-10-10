@@ -35,7 +35,9 @@ div {
 
 .container2 {
     /* write declarations here */
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .two {
@@ -45,15 +47,36 @@ div {
 
 .container3 {
     /* write declarations here */
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    ;
 }
 
 .columns-3 {
     /* write declaration here */
-
+    grid-column: 1/4;
 }
 
 .three {
     margin: .25rem;
     background-color: #abd;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    background-color: lightskyblue;
+    display: grid;
+    place-items: center;
 }

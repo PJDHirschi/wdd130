@@ -93,3 +93,32 @@ article {
     margin-left: 20px;
     box-shadow: black 5px 5px 5px;
 }
+
+.footer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: end;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 8px black;
+    background-color: var(--secondary-color);
+}
