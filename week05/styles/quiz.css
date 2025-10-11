@@ -1,0 +1,26 @@
+form{
+    background-color: lightgray;
+    border: 2px solid rgb(163, 161, 161);
+    border-radius: .4rem;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.exampleCode{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    margin-left: 2rem;
+    margin-right: 35rem;
+    padding-left: .25rem;
+}
+button{
+    background-color: rgb(32, 134, 218);
+    color: white;
+    border-radius: .5rem;
+
+}
+label, input, textarea, select, button{
+    margin: .5rem;
+}
