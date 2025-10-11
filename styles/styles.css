@@ -54,6 +54,8 @@ header, footer {
     margin: 0 auto;
 }
 footer {
+    max-width: 840px;
+    margin: 0 auto;
     margin-top: 15px;
     border-top: var(--border-w) solid var(--color-black);
     text-align: center;
