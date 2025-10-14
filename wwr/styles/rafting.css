@@ -232,29 +232,30 @@ header img{
 /*map*/
 
 .contact-grid{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.25rem 2rem;
-  align-items:start;
-  padding-bottom: 80px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem 2rem;
+    align-items:start;
+    padding-bottom: 80px;
 }
 
 .contact-map iframe{
-  display:block;
-  width:100%;
-  height:320px;
-  border:2px solid var(--accent1-color);
-  border-radius:8px;
-  box-shadow:0 6px 10px rgba(0,0,0,.15);
+    display:block;
+    width:100%;
+    height:320px;
+    border:2px solid var(--accent1-color);
+    border-radius:8px;
+    box-shadow:0 6px 10px rgba(0,0,0,.15);
+    border: 3px;
 }
 
 /*contact form*/
 
 .contact-form{
-  background:#e0e0e0;
-  border:2px solid #bdbdbd;
-  border-radius:.5rem;
-  padding:1rem;
+    background:#e0e0e0;
+    border:2px solid #bdbdbd;
+    border-radius:.5rem;
+    padding:1rem;
 }
 
 .contact-form fieldset{ 
