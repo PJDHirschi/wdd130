@@ -59,7 +59,7 @@ article {
     padding-left: 0px;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -93,7 +93,9 @@ article {
     margin-left: 20px;
     box-shadow: black 5px 5px 5px;
 }
-
+footer{
+    background-color:var(--primary-color)
+}
 .footer {
     display: flex;
     justify-content: end;
@@ -207,4 +209,156 @@ header img{
     border: 2px solid black;
     margin: 8px;
     box-shadow: black 5px 5px 5px;
+}
+
+/*contact us site*/
+/*contact info*/
+.company-info{
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.company-info div{
+    line-height: .01rem;
+}
+.contact-section h1{
+    text-align: center;
+
+}
+
+
+/*middle srction of site*/
+/*map*/
+
+.contact-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem 2rem;
+  align-items:start;
+  padding-bottom: 80px;
+}
+
+.contact-map iframe{
+  display:block;
+  width:100%;
+  height:320px;
+  border:2px solid var(--accent1-color);
+  border-radius:8px;
+  box-shadow:0 6px 10px rgba(0,0,0,.15);
+}
+
+/*contact form*/
+
+.contact-form{
+  background:#e0e0e0;
+  border:2px solid #bdbdbd;
+  border-radius:.5rem;
+  padding:1rem;
+}
+
+.contact-form fieldset{ 
+    border:none; 
+    margin:0; 
+    padding:0; 
+}
+
+.form-row{ 
+    display:grid; 
+    gap:.4rem; 
+    margin-bottom:.9rem; 
+}
+
+.contact-form label, .contact-form legend{
+    font-weight:600; 
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea{
+    width:100%;
+    padding:.65rem .75rem;
+    border:1.5px solid rgba(0,0,0,.25);
+    border-radius:8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form fieldset.form-row{
+    border:1.5px solid rgba(0,0,0,.15);
+    border-radius:10px;
+    padding:.75rem .9rem .6rem;
+}
+
+
+.choice{ 
+    display:flex; 
+    align-items:center;
+    gap:.5rem; margin:.15rem 0; 
+}
+
+
+.checkbox{ 
+    margin-top:.4rem; 
+}
+
+.btn.primary{
+    margin-top:.5rem;
+    padding:.8rem 1rem;
+    border:0;
+    border-radius:999px;
+    background:var(--accent1-color);
+    color:var(--primary-color);
+    font-weight:700;
+    box-shadow:0 4px 8px rgba(0,0,0,.12);
+}
+button:hover {
+    background-color: darkgreen;
+}
+legend.sr-only{
+    display:flex;
+    justify-content: center;
+}
+
+/*team section*/
+
+.team{
+    border: solid 2px black;
+
+}
+.team h2{
+    text-align: center;
+}
+
+.team .portraits {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+    flex-wrap: wrap;    
+}        
+
+.team .portraits li {
+    width: 140px;              
+    flex: 0 0 140px;            
+}
+
+.team .portraits figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+
+.team .portraits img {
+    display: block;
+    box-shadow: 4px 4px 8px  rgb(58, 58, 58);
+    border: 2px solid black;
+    border-radius: 3rem;
+}
+
+.team .portraits figcaption {
+    margin-top: .5rem;
+    text-align: center;
+    white-space: normal;        
+    word-break: break-word;  
 }
